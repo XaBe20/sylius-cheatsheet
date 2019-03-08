@@ -16,7 +16,7 @@ Base
 
 **Taxons**
 
-`{{ path('sylius_shop_product_index', {'slug': 'baguier', '_locale': configuration.request.locale}) }}`
+`{{ path('sylius_shop_product_index', {'slug': 'books', '_locale': configuration.request.locale}) }}`
 
 **Cart**
 
