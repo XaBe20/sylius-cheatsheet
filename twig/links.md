@@ -36,4 +36,4 @@ Bitbag CMS Plugin
 
 **Specific CMS page**
 
-`{{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'cgv', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}` (not only the path)
+`{{ path('bitbag_sylius_cms_plugin_shop_page_show', {'slug' : 'cgv'}) }}`
